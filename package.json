@@ -1,0 +1,14 @@
+{
+  "name": "google_serach_location_remover",
+  "version": "no-release",
+  "scripts": {
+    "eslint": "eslint -c .eslintrc.json \"./app/**/*.js\"",
+    "eslint-fix": "eslint --fix -c .eslintrc.json \"./app/**/*.js\"",
+    "zip": "bestzip .build/google_serach_location_remover.zip app/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bestzip": "^2.1.1",
+    "eslint": "^5.6.0"
+  }
+}
